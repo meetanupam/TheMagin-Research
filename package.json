@@ -1,0 +1,23 @@
+{
+  "name": "themagin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true})\"",
+    "clean:dev": "node -e \"require('fs').rmSync('.next-dev',{recursive:true,force:true})\"",
+    "dev": "npm run clean:dev && NEXT_DIST_DIR=.next-dev next dev --turbopack",
+    "build": "npm run clean && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "7.6.1",
+    "lucide-react": "1.27.0",
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "overrides": {
+    "postcss": "8.5.18",
+    "sharp": "0.35.0"
+  }
+}

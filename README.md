@@ -1,6 +1,6 @@
-# Margin
+# TheMagin
 
-Margin is a source-first research workspace for students, researchers, labs, and universities. It helps people move from scattered papers to traceable evidence, visual research maps, and structured briefs without hiding where claims came from.
+TheMagin is a source-first research workspace for students, researchers, labs, and universities. It helps people move from scattered papers to traceable evidence, visual research maps, and structured briefs without hiding where claims came from.
 
 The repository contains both the public SaaS website and the authenticated research workspace.
 

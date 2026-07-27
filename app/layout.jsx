@@ -2,7 +2,8 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata = {
-  title: "Margin — Research, connected",
+  title: "TheMagin — Research, connected",
+  applicationName: "TheMagin",
   description: "The AI research workspace that turns reading into evidence-linked, citation-ready work.",
   icons: { icon: "/favicon.svg" },
 };
